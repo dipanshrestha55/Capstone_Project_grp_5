@@ -22,21 +22,18 @@ Mango production is one of the big industry of Norther Territory, and diseases a
 
 ## File Structure
 Mango Disease Recognition using Deep Learning\
-│
-├── models\                       # Trained models (e.g., .keras files)   Note: latest model has the highest number
-│   ├── 1.keras
-│   ├── 2.keras
-│   ├── 3.keras
-│   └── 4.keras                   # Latest trained model
-│
-├── training\                     # Training-related files and source code
-│   ├── mango_dataset\            # Dataset (Healthy / Diseased)
-│   ├── mango_source_code\        # Python scripts, notebooks, etc.
-│   ├── mangos_densenet201.keras  # Example trained model
-│   ├── 4.keras                   # Trained model
-│   └── .ipynb_checkpoints\       # Jupyter auto-saves
-│
-└── README.md / README.txt        # Project documentation
+1. models\                       # Trained models (e.g., .keras files)   Note: latest model has the highest number
+    - 1.keras
+    - 2.keras
+    - 3.keras
+    -4.keras #latest training model
+2. training\ # Training-related files and source code
+    - mango_dataset\ # Dataset (Healthy / Diseased) 
+    - mango_source_code\ # Python scripts, notebooks, etc. 
+    - mangos_densenet201.keras # Example trained model 
+    - 4.keras # Trained model 
+    - .ipynb_checkpoints\ # Jupyter auto-saves
+3. README.md / README.txt        # Project documentation
 
 
 
